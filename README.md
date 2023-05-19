@@ -12,4 +12,6 @@ Project aimed at collecting data and using it to predict the winners of 3 Grammy
 8) reddit.py - this script reads the csv file containing the nominees and winners of the Grammy's for a particular award category and saves the comments extracted from reddit in separate csv files, one corresponding to each song. A developer account has to be created on Reddit and populated in the marked section in order to run this script
 9) scrape_soy - script to scrape the nominees and winners of song of the year
 10) scrape_record - script to scrape the nominees and wineers of record of the year
-11) scrape_rap - scraipt to scrape the nominees and winners of best rap song
+11) scrape_rap - script to scrape the nominees and winners of best rap song
+12) rapAnalysis - given all the datasets, this notebook does some data exploration, tests various predictive models and finally uses an optimal model and feature subset to predict the winners for the Rap Song of the Year
+13) GeniusLyricsClient - contains lyricsgenius client code to fetch lyrics for songs.
