@@ -10,3 +10,6 @@ Project aimed at collecting data and using it to predict the winners of 3 Grammy
 6) youtube.py - this script takes as argument a Youtube Data API Key and a string which is of the form year,song,artist and saves the comments for the song in a csv file along with the song metadata
 7) youtube-service.py - this script is a helper script containing utilities used by the above script for fetching Youtube comments
 8) reddit.py - this script reads the csv file containing the nominees and winners of the Grammy's for a particular award category and saves the comments extracted from reddit in separate csv files, one corresponding to each song. A developer account has to be created on Reddit and populated in the marked section in order to run this script
+9) scrape_soy - script to scrape the nominees and winners of song of the year
+10) scrape_record - script to scrape the nominees and wineers of record of the year
+11) scrape_rap - scraipt to scrape the nominees and winners of best rap song
