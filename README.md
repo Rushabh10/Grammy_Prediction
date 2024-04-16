@@ -1,5 +1,7 @@
 # Grammy_Prediction
-Project aimed at collecting data and using it to predict the winners of 3 Grammy awards
+The Grammy Awards are one of the most prestigious music awards in the world.Successfully predicting the winners presents a challenge, demanding a profound comprehension of the music industry and its evolving trends. In this study, we present an experimental Predictive Analytics tool that utilizes AI algorithms and harnesses alternative data sources to predict the winners in the categories of Song of the Year, Record of the Year, and Rap Song of the Year. Our method (1) collects, mines, and fuses data from various alternative sources, such as Billboard rankings, music features of the song, Google search volume, and lyrics, among other sources, and (2) trains AI algorithms to learn from historical data. Our empirical results indicate that the AI tool can accurately predict the winners of these three categories for the last three years. For Song of the Year, our algorithm indicates that energy, acousticness, and loudness were among the best predictive features for a Grammy-winning song. 
+For Record of the Year, profanity and sadness were identified as some of the most predictive features. Meanwhile, for Rap song of the Year, negative sentiment, the number of words, and happiness score emerged as the key features for a Grammy-winning song.
+The framework presented here has the potential to be utilized by artists for a data-driven approach to song writing and music production, enabling record labels and music fans to gain insights into the factors influencing the odds of winning an award.
 
 ## Files 
 1) Lyrics analysis - this notebook is used to generate features given the lyrics of a song
